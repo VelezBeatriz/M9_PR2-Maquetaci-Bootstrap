@@ -2,18 +2,6 @@
 @import url(reset.css);
 /*CSS Theme Yeti https://bootswatch.com/yeti/ */
 @import url(bootstrap.min.css);
+/*CSS Main*/
+@import url(main.css);
 
-.img_projects{
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.icons_projects{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-
-.form-control.buscador-proyectos:focus{
-    box-shadow: none;
-}

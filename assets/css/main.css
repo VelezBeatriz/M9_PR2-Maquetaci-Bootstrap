@@ -1,0 +1,20 @@
+.img_projects{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.icons_projects{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.form-control.buscador-proyectos:focus{
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .fixed-bottom {
+        position: relative !important; /* Anula la posición fija */
+    }
+}

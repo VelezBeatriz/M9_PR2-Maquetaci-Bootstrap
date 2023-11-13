@@ -22,7 +22,7 @@
         <main class="pt-3">
             <div class="row p-3">
                 <div class="col-12 py-3">
-                    <h2>Edición proyecto</h2>
+                    <h2>Detalle del proyecto</h2>
                 </div>
                 <div class="col-12 text-end py-3">
                     <button class="btn btn-outline-secondary">
@@ -32,36 +32,28 @@
                 <div class="col-sm-4 col-12 pb-sm-0 pb-3">
                     <img src="assets/media/img_project.png" alt="Imagen de un nuevo proyecto" title="Imagen de un nuevo proyecto" width="100%">
                 </div>
-                <div class="col-sm-8 col-12 mb-3">
-                    <form action="" method="POST">
-                        <div class="mb-3 fw-bold">
-                            <label for="project_name" class="form-label">Nombre:</label>
-                            <input type="text" class="form-control" id="project_name" placeholder="Nombre Autor">
-                          </div>
-                          <div class="mb-3 fw-bold">
-                            <label for="project_description" class="form-label">Descripción</label>
-                            <textarea class="form-control" id="project_description" rows="3" placeholder="Lorem impsum..."></textarea>
-                          </div>
-                          <div class="mb-3 fw-bold">
-                            <label for="project_status" class="form-label">Estado:</label>
-                            <input type="text" class="form-control" id="project_status" placeholder="Estado">
-                          </div>
-                          <div class="mb-3 fw-bold">
-                            <label for="project_date" class="form-label">Fecha:</label>
-                            <input type="date" class="form-control" id="project_date">
-                          </div>
-                          <div class="mb-3 fw-bold">
-                            <label for="project_link" class="form-label">link:</label>
-                            <input type="text" class="form-control" id="project_link" placeholder="http://enlace.com">
-                          </div>
-                          <div class="mb-3 fw-bold">
-                            <label for="project_repository" class="form-label">Repositorio:</label>
-                            <input type="text" class="form-control" id="project_repository" placeholder="user.github.com/12345">
-                          </div>
-                          <div class="mb-3 fw-bold">
-                            <button class="btn btn-success" type="submit">Subir proyecto</button>
-                          </div>
-                    </form>
+                <div class="col-sm-8 col-12 mb-3 h-auto">
+                        <div class="mb-3">
+                          <p class="fw-bold">Nombre: <span id="details_name" class="fw-normal">Tetris</span></p>
+                        </div>
+                        <div class="mb-3">
+                          <p class="fw-bold">Descripción: <span id="details_description" class="fw-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis reiciendis autem modi dolorum quis porro aspernatur odio sunt culpa, esse tenetur odit dolores repellendus quisquam enim adipisci ad, nihil vitae?</span></p>
+                        </div>
+                        <div class="mb-3">
+                          <p class="fw-bold">Estado: <span id="details_status" class="fw-normal">En proceso...</span></p>
+                        </div>
+                        <div class="mb-3">
+                          <p class="fw-bold">Fecha: <span id="details_date" class="fw-normal">12/12/2023</span></p>
+                        </div>
+                        <div class="mb-3">
+                          <p class="fw-bold">Enlace: <span id="details_link" class="fw-normal"><a href="" class="text-dark text-decoration-none">http://enlace.com</a></span></p>
+                        </div>
+                        <div class="mb-3">
+                        <p class="fw-bold">Repositorio: <span id="details_repository" class="fw-normal"><a href="" class="text-dark text-decoration-none">carrebola.github.com/12345</a></span></p>          
+                        </div>
+                        <div class="mb-3 text-end">
+                          <button class="btn btn-success rounded-circle p-2" type="submit"><a href="" class="text-white text-decoration-none fs-3"><i class="bi bi-pencil"></i></a></button>
+                        </div>
                 </div>
             </div>
 
