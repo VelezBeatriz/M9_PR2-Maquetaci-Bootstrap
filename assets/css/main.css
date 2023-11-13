@@ -28,10 +28,11 @@ a[href="signup.html"]:hover{
         font-size: 50px;
     }
 
+    main{
+        margin-bottom: 150px;
+    }
+
 }
 
-    /* main{
-        min-height: 100vh!important;
-    } */
-
+   
 
