@@ -1,3 +1,7 @@
+main{
+    min-height: 100vh;
+}
+
 #title_VanillaGames{
     font-size: 50px;
 }
@@ -26,4 +30,6 @@ a[href="signup.html"]:hover{
     #title_VanillaGames{
         font-size: 50px;
     }
+
 }
+
