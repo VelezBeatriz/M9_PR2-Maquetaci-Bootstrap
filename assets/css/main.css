@@ -1,3 +1,7 @@
+#title_VanillaGames{
+    font-size: 50px;
+}
+
 .img_projects{
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -11,6 +15,10 @@
 
 .form-control.buscador-proyectos:focus{
     box-shadow: none;
+}
+
+a[href="signup.html"]:hover{
+    color: black!important;
 }
 
 @media (max-width: 768px) {

@@ -25,29 +25,29 @@
                     <h1 class="mb-5">Proyectos</h1>
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item w-50" role="presentation">
-                          <a class="nav-link" data-bs-toggle="tab" href="#home" aria-selected="true" role="tab">Usuarios</a>
+                          <a class="nav-link active" data-bs-toggle="tab" href="#users_panel" aria-selected="true" role="tab">Usuarios</a>
                         </li>
                         <li class="nav-item w-50" role="presentation">
-                          <a class="nav-link active" data-bs-toggle="tab" href="#profile" aria-selected="false" tabindex="-1" role="tab">Proyectos</a>
+                          <a class="nav-link" data-bs-toggle="tab" href="#projects_panel" aria-selected="false" tabindex="-1" role="tab">Proyectos</a>
                         </li>
                       </ul>
                       <div id="myTabContent" class="tab-content border-end border-start border-bottom p-3">
-                        <div class="tab-pane fade" id="profile" role="tabpanel">
+                        <div class="tab-pane fade" id="projects_panel" role="tabpanel">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-12 col-md-6 d-flex flex-row gap-3">
                                         <form class="d-flex flex-grow-1">
-                                            <button class="btn btn-secondary my-0" type="submit">
+                                            <a class="btn btn-secondary my-0">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                                                 </svg>
-                                            </button>
+                                            </a>
                                             <input class="form-control buscador-proyectos" type="search" placeholder="Buscador">
-                                            <button class="btn btn-secondary my-0" type="reset">
+                                            <a class="btn btn-secondary my-0">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                                                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                                 </svg>
-                                            </button>
+                                            </a>
                                         </form>     
                                     </div>  
                                     <div class="d-none d-md-block col"></div>           
@@ -81,19 +81,44 @@
                                                     <td>13/12/2021</td>
                                                     <td>?</td>
                                                     <td>
-                                                        <button class="btn btn-outline-primary">
+                                                        <a class="btn btn-outline-primary">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
                                                                 <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
                                                             </svg>
-                                                        </button>
+                                                        </a>
                                                     </td>
                                                     <td>
-                                                        <button class="btn btn-outline-danger" type="reset">
+                                                        <a class="btn btn-outline-danger">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
                                                                 <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
                                                               </svg>
-                                                        </button>
+                                                        </a>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th><img src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100" class="img_projects" alt="Imagen del proyecto"></th>
+                                                    <td>Proyecto Ejemplo 1</td>
+                                                    <td>Ejemplo de web para centro FP</td>
+                                                    <td><a href="https://www.fpllefia.com/">https://www.fpllefia.com/</a></td>
+                                                    <td><a href="https://www.fpllefia.com/">https://www.fpllefia.com/</a></td>
+                                                    <td>Carlos</td>
+                                                    <td>13/12/2021</td>
+                                                    <td>?</td>
+                                                    <td>
+                                                        <a class="btn btn-outline-primary">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                                                            </svg>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn btn-outline-danger">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+                                                                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+                                                              </svg>
+                                                        </a>
                                                     </td>
                                                   </tr>
                                                   <tr>
@@ -113,32 +138,7 @@
                                                         </button>
                                                     </td>
                                                     <td>
-                                                        <button class="btn btn-outline-danger" type="reset">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
-                                                                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
-                                                              </svg>
-                                                        </button>
-                                                    </td>
-                                                  </tr>
-                                                  <tr>
-                                                    <th><img src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100" class="img_projects" alt="Imagen del proyecto"></th>
-                                                    <td>Proyecto Ejemplo 1</td>
-                                                    <td>Ejemplo de web para centro FP</td>
-                                                    <td><a href="https://www.fpllefia.com/">https://www.fpllefia.com/</a></td>
-                                                    <td><a href="https://www.fpllefia.com/">https://www.fpllefia.com/</a></td>
-                                                    <td>Carlos</td>
-                                                    <td>13/12/2021</td>
-                                                    <td>?</td>
-                                                    <td>
-                                                        <button class="btn btn-outline-primary">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
-                                                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
-                                                            </svg>
-                                                        </button>
-                                                    </td>
-                                                    <td>
-                                                        <button class="btn btn-outline-danger" type="reset">
+                                                        <button class="btn btn-outline-danger">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
                                                                 <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
@@ -153,18 +153,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade show active" id="home" role="tabpanel">
+                        <div class="tab-pane fade show active" id="users_panel" role="tabpanel">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-12 col-md-6 d-flex flex-row gap-3">
                                         <form class="d-flex flex-grow-1">
-                                            <button class="btn btn-secondary my-0" type="submit">
+                                            <button class="btn btn-secondary my-0">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                                                 </svg>
                                             </button>
                                             <input class="form-control buscador-proyectos" type="search" placeholder="Buscador">
-                                            <button class="btn btn-secondary my-0" type="submit">
+                                            <button class="btn btn-secondary my-0">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                                                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                                 </svg>
@@ -193,10 +193,9 @@
                                                 </thead>
                                                 <tbody class="table-group-divider">                                         
                                                   <tr>
-                                                    <form action="" method="POST">
                                                         <th class="position-relative overflow-hidden">
                                                                 <img class="rounded-circle img_projects" src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="70" alt="Imagen del proyecto">
-                                                                <button class="btn btn-success rounded-circle position-absolute end-0 bottom-0" type="submit"><i class="bi bi-pencil"></i></button>
+                                                                <a class="btn btn-success rounded-circle position-absolute end-0 bottom-0"><i class="bi bi-pencil"></i></a>
                                                         </th>                                                        
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="http://image.com"></td>
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="email@email.com"></td>
@@ -206,25 +205,23 @@
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="opcion"></td>
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="opcion"></td>                                                       
                                                         <td>
-                                                            <button class="btn btn-success" type="submit">
+                                                            <a class="btn btn-success">
                                                                 Actualizar
-                                                            </button>
+                                                            </a>
                                                         </td>
                                                         <td>
-                                                            <button class="btn btn-outline-danger" type="reset">
+                                                            <a class="btn btn-outline-danger">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                                     <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
                                                                     <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
                                                                 </svg>
-                                                            </button>
+                                                            </a>
                                                         </td>
-                                                    </form>
                                                   </tr>
                                                   <tr>
-                                                    <form action="" method="POST">
                                                         <th class="position-relative overflow-hidden">
                                                                 <img class="rounded-circle img_projects" src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="70" alt="Imagen del proyecto">
-                                                                <button class="btn btn-success rounded-circle position-absolute end-0 bottom-0" type="submit"><i class="bi bi-pencil"></i></button>
+                                                                <a class="btn btn-success rounded-circle position-absolute end-0 bottom-0"><i class="bi bi-pencil"></i></a>
                                                         </th>                                                        
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="http://image.com"></td>
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="email@email.com"></td>
@@ -234,25 +231,23 @@
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="opcion"></td>
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="opcion"></td>                                                       
                                                         <td>
-                                                            <button class="btn btn-success" type="submit">
+                                                            <a class="btn btn-success">
                                                                 Actualizar
-                                                            </button>
+                                                            </a>
                                                         </td>
                                                         <td>
-                                                            <button class="btn btn-outline-danger" type="reset">
+                                                            <a class="btn btn-outline-danger">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                                     <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
                                                                     <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
                                                                 </svg>
-                                                            </button>
+                                                            </a>
                                                         </td>
-                                                    </form>
                                                   </tr>
                                                   <tr>
-                                                    <form action="" method="POST">
                                                         <th class="position-relative overflow-hidden">
                                                                 <img class="rounded-circle img_projects" src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="70" alt="Imagen del proyecto">
-                                                                <button class="btn btn-success rounded-circle position-absolute end-0 bottom-0" type="submit"><i class="bi bi-pencil"></i></button>
+                                                                <a class="btn btn-success rounded-circle position-absolute end-0 bottom-0"><i class="bi bi-pencil"></i></a>
                                                         </th>                                                        
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="http://image.com"></td>
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="email@email.com"></td>
@@ -262,19 +257,18 @@
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="opcion"></td>
                                                         <td><input class="form-control" type="text" aria-label="default input example" value="opcion"></td>                                                       
                                                         <td>
-                                                            <button class="btn btn-success" type="submit">
+                                                            <a class="btn btn-success">
                                                                 Actualizar
-                                                            </button>
+                                                            </a>
                                                         </td>
                                                         <td>
-                                                            <button class="btn btn-outline-danger" type="reset">
+                                                            <a class="btn btn-outline-danger">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                                                     <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
                                                                     <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
                                                                 </svg>
-                                                            </button>
+                                                            </a>
                                                         </td>
-                                                    </form>
                                                   </tr>
                                                 </tbody>
                                               </table>
