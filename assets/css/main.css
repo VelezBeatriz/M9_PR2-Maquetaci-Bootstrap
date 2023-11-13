@@ -22,7 +22,8 @@ a[href="signup.html"]:hover{
 }
 
 @media (max-width: 768px) {
-    .fixed-bottom {
-        position: relative !important; /* Anula la posición fija */
+
+    #title_VanillaGames{
+        font-size: 50px;
     }
 }
